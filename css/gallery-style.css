@@ -1,4 +1,7 @@
 /* GALLERY */
+body {
+  background-color: #d0ff8d;
+}
 
 .gallery {
   display: grid;
@@ -23,7 +26,6 @@
   font-size: 1.25rem;
   text-align: center;
 }
-
 
 /* Media queries for the gallery - mobile followed by tablet*/
 @media (max-width: 500px) {
