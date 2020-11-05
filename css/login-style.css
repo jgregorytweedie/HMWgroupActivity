@@ -1,0 +1,48 @@
+/* LOGIN */
+
+.form-container #text-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: url(../images/hero-bg-3-2.jpg) no-repeat center left/cover ;
+}
+
+fieldset {
+  border: none;
+  padding-bottom: 15vh;
+  margin-top: 1rem;  
+}
+
+fieldset legend  {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight:  600;
+  /* text-align: center; */
+  margin: auto;
+  padding-bottom: 2rem;
+  
+}
+
+
+.form-real {
+  flex: 2;
+}
+
+.form-real form {
+  min-width: min-content;
+  max-width: 50ch;
+  padding: 3rem 0rem;
+  background-color: #fff;
+  border-radius: 0.75rem;
+
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.form-real form label {
+  display: inline-block;
+  min-width: 90%;
+  text-align: left;
+}

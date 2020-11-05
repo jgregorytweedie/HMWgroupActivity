@@ -1,0 +1,128 @@
+/* CONTACT US */
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  margin: auto;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  text-align: center;
+  
+  min-width: 50ch;
+  max-width: 60ch;
+
+  min-height: fit-content;
+
+  background-color: #f1efef;
+
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); 
+  
+  margin: 3rem 2rem;
+  border-radius: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card h1 {
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+
+.card p {
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card article.socials {
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  
+  border-top: 0.5px solid #2e6b06;
+}
+
+/* Media queries for the contact cards (also applies to the mission/vision sections becase they use the same container) */
+@media (min-width: 300px) and (max-width: 860px) {
+  #text-content .container {
+    display: flex;
+    flex-direction: column;
+  }
+} 
+
+form {
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+#text-content form div {
+  width: 70%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  margin-top: 2rem;
+}
+
+#text-content label {
+  padding-bottom: 1rem;
+}
+
+#text-content input, #text-content textarea {
+  width: 90%;
+  
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  
+  border: 0.5px solid #2e6b06;
+  border-radius: 0.5rem;
+}
+
+#text-content input:focus, #text-content textarea:focus {
+  outline: none;
+  border: 1px solid #2e6b06;
+  box-shadow: 0 0 2px #2e6b06;
+} 
+
+#text-content button {
+  width: 60%;
+  font-size: 1.5rem;
+  color: #fff;
+  background: #2e6b06;
+  border: 1px solid #2e6b06;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+#text-content button:hover {
+  width: 60%;
+  color: #2e6b06;
+  background: transparent;
+  border: 1px solid #2e6b06;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
